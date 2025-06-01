@@ -305,3 +305,57 @@ p {
   font-weight: 500;
   line-height: 28px;
 }
+
+/* Pagionation section */
+
+.container .pagionation_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagionation_box .pagionation_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .pagionation_main img {
+  cursor: pointer;
+}
+
+.container .pagionation_main .pagionation_dot {
+  margin: 0 21px;
+  display: flex;
+  flex-direction: row;
+}
+
+ .container .pagionation_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container .pagionation_dot .dot.active {
+  border: 2px solid #112137;
+}
+
+.container .pagionation_dot .dot div {
+  width: 4px;
+  height: 4px;
+  background-color: #112137;
+  border-radius: 50%;
+}
