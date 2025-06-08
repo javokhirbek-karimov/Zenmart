@@ -709,7 +709,7 @@
 .spec_products_frame .spec_product_wrapper .small_product_wrapper {
   margin-left: 30px;
   width: 620px;
-  height: 368px;
+  height: 395px;
 
   display: flex;
   flex-direction: row;
@@ -847,6 +847,7 @@
   justify-content: center;
 
   background-image: url("../images/icons/event_bg.png");
+  background-size: cover;
 }
 
 .home_page .event_frame .container {
