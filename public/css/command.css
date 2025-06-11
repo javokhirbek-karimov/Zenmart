@@ -324,6 +324,7 @@ p {
 }
 
 .container .pagionation_box .pagionation_main {
+  margin-right: 7px;
   width: auto;
   height: 24px;
 
@@ -363,6 +364,87 @@ p {
   height: 4px;
   background-color: #112137;
   border-radius: 50%;
+}
+
+.container .product_content_box {
+  box-sizing: border-box;
+  padding: 5px 22px;
+  width: 100%;
+  height: auto;
+}
+
+.container .product_content_box .product_title {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+}
+
+.container .product_content_box .product_desc {
+  height: 56px;
+  margin-top: 7px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #041e42;
+  overflow: hidden;
+}
+
+.container .product_content_box .review_box {
+  width: 200px;
+
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .review_box img {
+  margin-right: 5px;
+}
+
+.container .review_box span {
+  margin-left: 5px;
+
+  color: rgb(98, 105, 116);
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.container .product_content_box .price_box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .price_box strong {
+  color: #041e42;
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.container .price_box span {
+  margin-left: 10px;
+  color: #626974;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: line-through;
 }
 
 /* Footer Section */
@@ -606,4 +688,28 @@ p {
   line-height: 40px;
 
   color: #041e42;
+}
+
+/* Page Homes */
+.page_homes {
+  margin: 20px;
+  width: 1320px;
+}
+
+.page_homes span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #041e42;
+}
+
+.page_homes span.drop {
+  margin: 0 10px;
+}
+
+.page_homes span.active {
+  color: #626974;
 }
